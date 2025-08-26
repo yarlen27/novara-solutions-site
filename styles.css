@@ -165,7 +165,6 @@ main {
     font-size: 14px;
     color: var(--text-secondary);
     line-height: 1.5;
-    margin-bottom: 20px;
 }
 
 .card-button {
