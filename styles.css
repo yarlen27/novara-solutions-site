@@ -96,10 +96,7 @@ main {
 }
 
 .hero-content {
-    display: grid;
-    grid-template-columns: 1fr 400px;
-    gap: 80px;
-    align-items: center;
+    max-width: 900px;
 }
 
 .hero-text {
@@ -191,16 +188,6 @@ main {
     background: rgba(0,0,0,0.03);
 }
 
-.hero-illustration {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-illustration svg {
-    width: 100%;
-    height: auto;
-}
 
 /* Announcement Section */
 .announcement {
@@ -554,16 +541,6 @@ main {
 
 /* Responsive */
 @media (max-width: 1024px) {
-    .hero-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    
-    .hero-illustration {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    
     .video-content {
         grid-template-columns: 1fr;
         gap: 32px;
