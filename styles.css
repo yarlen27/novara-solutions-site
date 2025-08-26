@@ -340,22 +340,7 @@ main {
 .service-card p {
     color: var(--text-secondary);
     line-height: 1.6;
-    margin-bottom: 20px;
     font-size: 0.95rem;
-}
-
-.service-link {
-    color: var(--primary);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95rem;
-    display: inline-flex;
-    align-items: center;
-    transition: gap 0.2s;
-}
-
-.service-link:hover {
-    gap: 5px;
 }
 
 
