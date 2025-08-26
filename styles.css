@@ -330,56 +330,6 @@ main {
     line-height: 1.4;
 }
 
-/* Featured Section */
-.featured {
-    padding: 80px 0;
-    background: var(--background);
-}
-
-.featured-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 32px;
-}
-
-.featured h2 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 40px;
-}
-
-.featured-list {
-    border-top: 1px solid var(--border);
-}
-
-.featured-header,
-.featured-item {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    gap: 24px;
-    padding: 20px 0;
-    border-bottom: 1px solid var(--border);
-    align-items: center;
-}
-
-.featured-header {
-    font-weight: 600;
-}
-
-.featured-tag {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--text-secondary);
-    background: var(--card-bg);
-    padding: 4px 8px;
-    border-radius: 4px;
-}
-
-.featured-date {
-    font-size: 14px;
-    color: var(--text-secondary);
-}
 
 /* Careers Section */
 .careers {
@@ -513,12 +463,6 @@ main {
 }
 
 @media (max-width: 480px) {
-    .featured-header,
-    .featured-item {
-        grid-template-columns: 1fr;
-        gap: 8px;
-    }
-    
     .careers-buttons {
         flex-direction: column;
     }
