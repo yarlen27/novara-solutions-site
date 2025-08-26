@@ -276,70 +276,6 @@ main {
     font-size: 20px;
 }
 
-/* Video Section */
-.video-section {
-    padding: 60px 0;
-    background: var(--background);
-}
-
-.video-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 32px;
-}
-
-.video-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 60px;
-    align-items: center;
-}
-
-.video-player {
-    background: #000;
-    border-radius: 12px;
-    aspect-ratio: 16/9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.video-placeholder {
-    width: 80px;
-    height: 80px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.video-placeholder:hover {
-    background: rgba(255,255,255,0.2);
-}
-
-.video-text h2 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 24px;
-}
-
-.video-text blockquote {
-    font-size: 18px;
-    line-height: 1.5;
-    color: var(--text-secondary);
-    margin-bottom: 24px;
-    font-style: italic;
-}
-
-.quote-author {
-    font-size: 14px;
-    color: var(--text-secondary);
-}
 
 /* Principles Section */
 .principles {
@@ -543,11 +479,6 @@ main {
 
 /* Responsive */
 @media (max-width: 1024px) {
-    .video-content {
-        grid-template-columns: 1fr;
-        gap: 32px;
-    }
-    
     .principles-cards {
         grid-template-columns: 1fr;
     }
