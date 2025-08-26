@@ -96,7 +96,7 @@ main {
 }
 
 .hero-content {
-    max-width: 900px;
+    width: 100%;
 }
 
 .hero-text {
@@ -114,10 +114,11 @@ main {
 }
 
 .hero-text h1 {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -0.02em;
+    max-width: 1000px;
 }
 
 .underline {
@@ -129,8 +130,9 @@ main {
 
 .hero-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
 }
 
 .hero-card {
@@ -570,6 +572,12 @@ main {
     
     .footer-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-cards {
+        grid-template-columns: 1fr;
     }
 }
 
