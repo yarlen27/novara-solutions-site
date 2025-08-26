@@ -101,6 +101,7 @@ main {
 
 .hero-text {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .hero-label {
@@ -119,6 +120,7 @@ main {
     line-height: 1.2;
     letter-spacing: -0.02em;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .underline {
@@ -133,6 +135,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero-card {
