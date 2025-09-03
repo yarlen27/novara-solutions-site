@@ -208,7 +208,7 @@ main {
 }
 
 .announcement-card {
-    background: var(--card-bg);
+    background: var(--primary);
     padding: 48px;
     border-radius: 16px;
 }
@@ -217,11 +217,12 @@ main {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 16px;
+    color: white;
 }
 
 .announcement-card p {
     font-size: 16px;
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
     margin-bottom: 24px;
     max-width: 800px;
@@ -229,25 +230,30 @@ main {
 
 .announcement-link {
     display: inline-block;
-    color: var(--text-primary);
+    color: white;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-    border-bottom: 1px solid var(--text-primary);
+    border-bottom: 1px solid white;
     margin-bottom: 32px;
 }
 
 .model-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     gap: 16px;
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .model-card {
     background: rgba(255,255,255,0.5);
     padding: 20px;
     border-radius: 8px;
+}
+
+.model-card-empty {
+    background: transparent;
+    padding: 0;
     position: relative;
     transition: background 0.2s;
 }
